@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>facebook</h1>
+        <h2>Create a New Account</h2>
+    
+    <form action="#" method="POST">
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        
+        <label for="email">Mobile Number or Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">New Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label>Birthday:</label><br>
+        <select name="birth-day" required>
+            <option value="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <!-- Add all days -->
+        </select>
+        <select name="birth-month" required>
+            <option value="">Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <!-- Add all months -->
+        </select>
+        <select name="birth-year" required>
+            <option value="">Year</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <!-- Add all years -->
+        </select><br><br>
+        
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="female" required> Female<br>
+        <input type="radio" name="gender" value="male" required> Male<br>
+        <input type="radio" name="gender" value="custom" required> Custom<br><br>
+        
+        <button type="submit">Sign Up</button>
+    </form>
+    </center>
+</body>
+</html>
